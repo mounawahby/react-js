@@ -42,8 +42,8 @@ class App extends Component {
 
                 <div className="App-content">
                     <div className="center-align">
-                        <div><img src="C:\Users\mouna\Desktop\react final project\src\components\img\pic.jpg" className="sportPic" /></div>
-						<div><img src="C:\Users\mouna\Desktop\react final project\src\components\img\pic.png" className="sportPic2" /></div>
+                        <div><img src="http://www.rockdalepublicschool.nsw.edu.au/wp-content/uploads/2016/06/balls.png" className="sportPic" /></div>
+			
                         <form onSubmit={this.fetchSport}>
 
                             <button type="submit" className="waves-effect waves-light btn">
