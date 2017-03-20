@@ -1,15 +1,15 @@
 import * as request from 'request-promise'
 
-
 /* FREE JSON API EXAMPLE */
 
-/* WEATHER: https://www.apixu.com/api-explorer.aspx */
+/* NEWS: https://newsapi.org/ */
 
-/* IMAGES: https://pixabay.com/api/docs/ */
+
+export const SPORT_API_KEY = 'e92fc1b74ddf4b9b887ec3b71c6dbc0c'
 
 export const ENDPOINTS = {
 
-    WEATHER_API_URL: 'http://api.apixu.com/v1/current.json',
+    SPORT_API_URL: 'https://newsapi.org/v1/articles?source=fox-sports&sortBy=top&',
     PIXABAY_API_URL: 'https://pixabay.com/api/'
 
 }

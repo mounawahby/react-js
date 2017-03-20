@@ -1,0 +1,30 @@
+
+
+.sport-data {
+    padding-right: 60px;
+    font-size: 125%;
+}
+
+.sport-data i {
+    margin-right: 5px;
+    color: blue;
+    vertical-align: middle;
+}
+
+.sport-data p {
+    margin-bottom: 15px !important;
+}
+
+.sport-img-container {
+    max-width: 200px !important;
+    overflow: hidden;
+}
+
+.sport-img-container .card-title {
+    text-shadow: 0px 2px 3px black;
+}
+
+.sport-img {
+    max-height: 240px;
+    max-width: initial !important;
+}

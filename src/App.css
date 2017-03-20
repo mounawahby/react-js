@@ -8,18 +8,26 @@
 
 .App-header {
     text-align: right;
-    background-color: #222;
+    background-color: white;
     height: 60px;
     padding: 5px 10px;
-    color: white;
+    color: black;
 }
-
+.sportPic{
+	left:20px;
+	 position: fixed;
+}
+.sportPic2{
+	right:20px;
+	 position: fixed;
+}
 .App-header h1 {
+	font-family: georgia;
     font-weight: 300;
     font-size: 26px;
     margin: 0;
     padding: 0;
-    vertical-align: middle;
+    vertical-align: right;
     display: inline-block;
 }
 
